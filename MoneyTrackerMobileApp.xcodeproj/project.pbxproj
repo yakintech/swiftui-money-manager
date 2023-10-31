@@ -14,6 +14,12 @@
 		1D0F4BE62AECF2AB00F57552 /* MoneyTrackerMobileAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0F4BE52AECF2AB00F57552 /* MoneyTrackerMobileAppTests.swift */; };
 		1D0F4BF02AECF2AB00F57552 /* MoneyTrackerMobileAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0F4BEF2AECF2AB00F57552 /* MoneyTrackerMobileAppUITests.swift */; };
 		1D0F4BF22AECF2AB00F57552 /* MoneyTrackerMobileAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0F4BF12AECF2AB00F57552 /* MoneyTrackerMobileAppUITestsLaunchTests.swift */; };
+		1D0F4C012AECF58F00F57552 /* Expense.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0F4C002AECF58F00F57552 /* Expense.swift */; };
+		1D0F4C072AECFF0F00F57552 /* ExpenseMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0F4C062AECFF0F00F57552 /* ExpenseMain.swift */; };
+		1D0F4C092AECFF1700F57552 /* IncomeMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0F4C082AECFF1700F57552 /* IncomeMain.swift */; };
+		1D0F4C0B2AECFF2000F57552 /* DashboardMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0F4C0A2AECFF2000F57552 /* DashboardMain.swift */; };
+		1D0F4C0D2AECFF6100F57552 /* TabMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0F4C0C2AECFF6100F57552 /* TabMain.swift */; };
+		1D0F4C112AED0F3600F57552 /* PickerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0F4C102AED0F3600F57552 /* PickerHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +50,12 @@
 		1D0F4BEB2AECF2AB00F57552 /* MoneyTrackerMobileAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoneyTrackerMobileAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D0F4BEF2AECF2AB00F57552 /* MoneyTrackerMobileAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyTrackerMobileAppUITests.swift; sourceTree = "<group>"; };
 		1D0F4BF12AECF2AB00F57552 /* MoneyTrackerMobileAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyTrackerMobileAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1D0F4C002AECF58F00F57552 /* Expense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expense.swift; sourceTree = "<group>"; };
+		1D0F4C062AECFF0F00F57552 /* ExpenseMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseMain.swift; sourceTree = "<group>"; };
+		1D0F4C082AECFF1700F57552 /* IncomeMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncomeMain.swift; sourceTree = "<group>"; };
+		1D0F4C0A2AECFF2000F57552 /* DashboardMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardMain.swift; sourceTree = "<group>"; };
+		1D0F4C0C2AECFF6100F57552 /* TabMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabMain.swift; sourceTree = "<group>"; };
+		1D0F4C102AED0F3600F57552 /* PickerHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +106,7 @@
 		1D0F4BD32AECF2AA00F57552 /* MoneyTrackerMobileApp */ = {
 			isa = PBXGroup;
 			children = (
+				1D0F4BFE2AECF3D900F57552 /* Sources */,
 				1D0F4BD42AECF2AA00F57552 /* MoneyTrackerMobileAppApp.swift */,
 				1D0F4BD62AECF2AA00F57552 /* ContentView.swift */,
 				1D0F4BD82AECF2AA00F57552 /* Assets.xcassets */,
@@ -125,6 +138,75 @@
 				1D0F4BF12AECF2AB00F57552 /* MoneyTrackerMobileAppUITestsLaunchTests.swift */,
 			);
 			path = MoneyTrackerMobileAppUITests;
+			sourceTree = "<group>";
+		};
+		1D0F4BFE2AECF3D900F57552 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				1D0F4C0E2AED0F1300F57552 /* Utils */,
+				1D0F4C022AECFEC600F57552 /* Screens */,
+				1D0F4BFF2AECF56800F57552 /* Model */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		1D0F4BFF2AECF56800F57552 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1D0F4C002AECF58F00F57552 /* Expense.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1D0F4C022AECFEC600F57552 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				1D0F4C052AECFEFB00F57552 /* Expense */,
+				1D0F4C042AECFEF600F57552 /* Income */,
+				1D0F4C032AECFED900F57552 /* Dashboard */,
+				1D0F4C0C2AECFF6100F57552 /* TabMain.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		1D0F4C032AECFED900F57552 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				1D0F4C0A2AECFF2000F57552 /* DashboardMain.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		1D0F4C042AECFEF600F57552 /* Income */ = {
+			isa = PBXGroup;
+			children = (
+				1D0F4C082AECFF1700F57552 /* IncomeMain.swift */,
+			);
+			path = Income;
+			sourceTree = "<group>";
+		};
+		1D0F4C052AECFEFB00F57552 /* Expense */ = {
+			isa = PBXGroup;
+			children = (
+				1D0F4C062AECFF0F00F57552 /* ExpenseMain.swift */,
+			);
+			path = Expense;
+			sourceTree = "<group>";
+		};
+		1D0F4C0E2AED0F1300F57552 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				1D0F4C0F2AED0F1A00F57552 /* PickerHelper */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		1D0F4C0F2AED0F1A00F57552 /* PickerHelper */ = {
+			isa = PBXGroup;
+			children = (
+				1D0F4C102AED0F3600F57552 /* PickerHelper.swift */,
+			);
+			path = PickerHelper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +339,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D0F4C012AECF58F00F57552 /* Expense.swift in Sources */,
+				1D0F4C0B2AECFF2000F57552 /* DashboardMain.swift in Sources */,
+				1D0F4C072AECFF0F00F57552 /* ExpenseMain.swift in Sources */,
+				1D0F4C112AED0F3600F57552 /* PickerHelper.swift in Sources */,
+				1D0F4C0D2AECFF6100F57552 /* TabMain.swift in Sources */,
 				1D0F4BD72AECF2AA00F57552 /* ContentView.swift in Sources */,
 				1D0F4BD52AECF2AA00F57552 /* MoneyTrackerMobileAppApp.swift in Sources */,
+				1D0F4C092AECFF1700F57552 /* IncomeMain.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
