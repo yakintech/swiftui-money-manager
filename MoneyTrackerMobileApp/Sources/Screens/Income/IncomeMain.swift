@@ -8,8 +8,9 @@
 import SwiftUI
 
 struct IncomeMain: View {
+    @AppStorage("counter") var counter : Int = 0
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Text("counter:  \(counter)")
     }
 }
 

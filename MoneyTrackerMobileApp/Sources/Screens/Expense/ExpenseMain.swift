@@ -61,14 +61,23 @@ struct ExpenseMain: View {
             
             
             Button("Ekle"){
+               
                 var newExpense = ExpenseModel()
+                newExpense.id = UUID().uuidString
                 newExpense.addDate = addDate
                 newExpense.amount = amount
                 newExpense.expenseTypeKey = selectedType?.key ?? 0
                 newExpense.expeneCategoryKey = selectedCategory?.key ?? 0
                 newExpense.note = note
                 
-                print(newExpense)
+                //instance almak - Mevcut class şablonunu kopyalamak
+                let storageHelper = StorageHelper()
+                var expenses = storageHelper.getExpenses()
+            
+                expenses.append(newExpense)
+                
+                storageHelper.setExpenses(expense: expenses)
+                
                 
             }
         }

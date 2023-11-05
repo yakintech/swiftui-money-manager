@@ -8,8 +8,9 @@
 import Foundation
 
 
-struct ExpenseModel{
+struct ExpenseModel : Codable, Hashable{
     
+    var id : String = ""
     var expenseTypeKey : Int = 0
     var expeneCategoryKey : Int = 0
     
@@ -21,13 +22,13 @@ struct ExpenseModel{
 }
 
 
-struct ExpenseType : Hashable {
+struct ExpenseType : Hashable,Codable {
     var key : Int = 0
     var name : String = ""    // (1, Kredi Kartı) (2, Banka Kartı) (3, Nakit)
 }
 
 
-struct ExpenseCategory : Hashable {
+struct ExpenseCategory : Hashable,Codable {
     var key : Int = 0
     var name : String = ""  // (1, Eğitim) (2, Eğlence)
 }
