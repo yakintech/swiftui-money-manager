@@ -8,9 +8,22 @@
 import SwiftUI
 
 struct IncomeMain: View {
+    
+    var number = 0
+    
+    init(){
+        number = 20
+    }
+    
     @AppStorage("counter") var counter : Int = 0
     var body: some View {
-        Text("counter:  \(counter)")
+        VStack{
+            Text("counter:  \(counter)")
+            Text("number:  \(number)")
+        }
+        .onAppear(){
+            //number = 40
+        }
     }
 }
 

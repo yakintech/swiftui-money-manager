@@ -20,6 +20,8 @@
 		1D0F4C0B2AECFF2000F57552 /* DashboardMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0F4C0A2AECFF2000F57552 /* DashboardMain.swift */; };
 		1D0F4C0D2AECFF6100F57552 /* TabMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0F4C0C2AECFF6100F57552 /* TabMain.swift */; };
 		1D0F4C112AED0F3600F57552 /* PickerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0F4C102AED0F3600F57552 /* PickerHelper.swift */; };
+		1DD0667F2AF780CD009F7A30 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD0667E2AF780CD009F7A30 /* User.swift */; };
+		1DD066812AF785BF009F7A30 /* About.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD066802AF785BF009F7A30 /* About.swift */; };
 		1DEBD1002AF629FD00FD8F53 /* StorageHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DEBD0FF2AF629FD00FD8F53 /* StorageHelper.swift */; };
 /* End PBXBuildFile section */
 
@@ -57,6 +59,8 @@
 		1D0F4C0A2AECFF2000F57552 /* DashboardMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardMain.swift; sourceTree = "<group>"; };
 		1D0F4C0C2AECFF6100F57552 /* TabMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabMain.swift; sourceTree = "<group>"; };
 		1D0F4C102AED0F3600F57552 /* PickerHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerHelper.swift; sourceTree = "<group>"; };
+		1DD0667E2AF780CD009F7A30 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		1DD066802AF785BF009F7A30 /* About.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = About.swift; sourceTree = "<group>"; };
 		1DEBD0FF2AF629FD00FD8F53 /* StorageHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -113,6 +117,7 @@
 				1D0F4BD62AECF2AA00F57552 /* ContentView.swift */,
 				1D0F4BD82AECF2AA00F57552 /* Assets.xcassets */,
 				1D0F4BDA2AECF2AA00F57552 /* Preview Content */,
+				1DD066802AF785BF009F7A30 /* About.swift */,
 			);
 			path = MoneyTrackerMobileApp;
 			sourceTree = "<group>";
@@ -156,6 +161,7 @@
 			isa = PBXGroup;
 			children = (
 				1D0F4C002AECF58F00F57552 /* Expense.swift */,
+				1DD0667E2AF780CD009F7A30 /* User.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -352,12 +358,14 @@
 			files = (
 				1D0F4C012AECF58F00F57552 /* Expense.swift in Sources */,
 				1D0F4C0B2AECFF2000F57552 /* DashboardMain.swift in Sources */,
+				1DD066812AF785BF009F7A30 /* About.swift in Sources */,
 				1DEBD1002AF629FD00FD8F53 /* StorageHelper.swift in Sources */,
 				1D0F4C072AECFF0F00F57552 /* ExpenseMain.swift in Sources */,
 				1D0F4C112AED0F3600F57552 /* PickerHelper.swift in Sources */,
 				1D0F4C0D2AECFF6100F57552 /* TabMain.swift in Sources */,
 				1D0F4BD72AECF2AA00F57552 /* ContentView.swift in Sources */,
 				1D0F4BD52AECF2AA00F57552 /* MoneyTrackerMobileAppApp.swift in Sources */,
+				1DD0667F2AF780CD009F7A30 /* User.swift in Sources */,
 				1D0F4C092AECFF1700F57552 /* IncomeMain.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

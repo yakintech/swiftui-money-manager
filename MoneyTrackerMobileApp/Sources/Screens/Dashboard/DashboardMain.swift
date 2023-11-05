@@ -11,6 +11,10 @@ struct DashboardMain: View {
     
     @State var expenses : [ExpenseModel] = []
     
+    @State private var startDate : Date = Date()
+    @State private var endDate : Date = Date()
+    
+    
     var body: some View {
         VStack{
          
@@ -19,9 +23,19 @@ struct DashboardMain: View {
                 let storageHelper = StorageHelper()
                 storageHelper.setExpenses(expense: [])
             }
+            .padding()
+            Divider()
+            
+            DatePicker("Start Date", selection: $startDate)
+                .padding()
+            
+            DatePicker("End Date", selection: $endDate)
+                .padding()
+            
+            
             ForEach(expenses, id:\.self){item in
                 HStack{
-                    Text(item.note)
+                    Text("Expense: \(item.note) AddDate: \(item.addDate)")
                         .padding()
                     Button("Delete"){
                       let deleteIndexNo = expenses.firstIndex(where: { $0.id == item.id})
@@ -37,8 +51,14 @@ struct DashboardMain: View {
     
         }
         .onAppear(){
-            var storageHelper = StorageHelper()
+            let storageHelper = StorageHelper()
             expenses = storageHelper.getExpenses()
+            
+        }
+        .onDisappear(){
+            startDate = Date()
+            endDate = Date()
+            print("Dashboard Disappear")
         }
     }
 }
