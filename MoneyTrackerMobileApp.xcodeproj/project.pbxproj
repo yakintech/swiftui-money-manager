@@ -43,7 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1D0F4BD12AECF2AA00F57552 /* MoneyTrackerMobileApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoneyTrackerMobileApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D0F4BD12AECF2AA00F57552 /* Money APP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Money APP.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D0F4BD42AECF2AA00F57552 /* MoneyTrackerMobileAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyTrackerMobileAppApp.swift; sourceTree = "<group>"; };
 		1D0F4BD62AECF2AA00F57552 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1D0F4BD82AECF2AA00F57552 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -102,7 +102,7 @@
 		1D0F4BD22AECF2AA00F57552 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1D0F4BD12AECF2AA00F57552 /* MoneyTrackerMobileApp.app */,
+				1D0F4BD12AECF2AA00F57552 /* Money APP.app */,
 				1D0F4BE12AECF2AB00F57552 /* MoneyTrackerMobileAppTests.xctest */,
 				1D0F4BEB2AECF2AB00F57552 /* MoneyTrackerMobileAppUITests.xctest */,
 			);
@@ -243,7 +243,7 @@
 			);
 			name = MoneyTrackerMobileApp;
 			productName = MoneyTrackerMobileApp;
-			productReference = 1D0F4BD12AECF2AA00F57552 /* MoneyTrackerMobileApp.app */;
+			productReference = 1D0F4BD12AECF2AA00F57552 /* Money APP.app */;
 			productType = "com.apple.product-type.application";
 		};
 		1D0F4BE02AECF2AB00F57552 /* MoneyTrackerMobileAppTests */ = {
@@ -538,7 +538,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.SpotifyTemplate.MoneyTrackerMobileApp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Money APP";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -566,7 +566,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.SpotifyTemplate.MoneyTrackerMobileApp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Money APP";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
