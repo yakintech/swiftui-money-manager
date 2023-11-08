@@ -23,7 +23,6 @@
 		1DD0667F2AF780CD009F7A30 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD0667E2AF780CD009F7A30 /* User.swift */; };
 		1DD066812AF785BF009F7A30 /* About.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD066802AF785BF009F7A30 /* About.swift */; };
 		1DEBD1002AF629FD00FD8F53 /* StorageHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DEBD0FF2AF629FD00FD8F53 /* StorageHelper.swift */; };
-		BFA875D92AFC08DA000A3E7D /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA875D82AFC08DA000A3E7D /* SplashView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,7 +62,7 @@
 		1DD0667E2AF780CD009F7A30 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		1DD066802AF785BF009F7A30 /* About.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = About.swift; sourceTree = "<group>"; };
 		1DEBD0FF2AF629FD00FD8F53 /* StorageHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageHelper.swift; sourceTree = "<group>"; };
-		BFA875D82AFC08DA000A3E7D /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		BF9A210D2AFC24DF00CD89F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,13 +113,13 @@
 		1D0F4BD32AECF2AA00F57552 /* MoneyTrackerMobileApp */ = {
 			isa = PBXGroup;
 			children = (
+				BF9A210D2AFC24DF00CD89F5 /* Info.plist */,
 				1D0F4BFE2AECF3D900F57552 /* Sources */,
 				1D0F4BD42AECF2AA00F57552 /* MoneyTrackerMobileAppApp.swift */,
 				1D0F4BD62AECF2AA00F57552 /* ContentView.swift */,
 				1D0F4BD82AECF2AA00F57552 /* Assets.xcassets */,
 				1D0F4BDA2AECF2AA00F57552 /* Preview Content */,
 				1DD066802AF785BF009F7A30 /* About.swift */,
-				BFA875D82AFC08DA000A3E7D /* SplashView.swift */,
 			);
 			path = MoneyTrackerMobileApp;
 			sourceTree = "<group>";
@@ -364,7 +363,6 @@
 				1DD066812AF785BF009F7A30 /* About.swift in Sources */,
 				1DEBD1002AF629FD00FD8F53 /* StorageHelper.swift in Sources */,
 				1D0F4C072AECFF0F00F57552 /* ExpenseMain.swift in Sources */,
-				BFA875D92AFC08DA000A3E7D /* SplashView.swift in Sources */,
 				1D0F4C112AED0F3600F57552 /* PickerHelper.swift in Sources */,
 				1D0F4C0D2AECFF6100F57552 /* TabMain.swift in Sources */,
 				1D0F4BD72AECF2AA00F57552 /* ContentView.swift in Sources */,
@@ -532,9 +530,9 @@
 				DEVELOPMENT_TEAM = MN2C4KUDVN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MoneyTrackerMobileApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -561,9 +559,9 @@
 				DEVELOPMENT_TEAM = MN2C4KUDVN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MoneyTrackerMobileApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

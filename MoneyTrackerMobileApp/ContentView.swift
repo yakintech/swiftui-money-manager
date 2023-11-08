@@ -8,26 +8,10 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State private var showMainView = false
+   
 
         var body: some View {
-            NavigationView {
-                ZStack {
-                    if showMainView {
-                        TabMain()
-                    } else {
-                        SplashView()
-                            .onAppear {
-                                DispatchQueue.main.asyncAfter(deadline: .now() + 1.8) {
-                                    withAnimation {
-                                        showMainView = true
-                                    }
-                                }
-                            }
-                    }
-                }
-                .navigationBarHidden(true)
-            }
+       TabMain()
         }
     }
 
